@@ -8,7 +8,7 @@ require_once 'model/config.php';
 	<title></title>
 </head>
 <body>
-	<a href="login.php">Login</a>
+	<a href="view/login.php">Login</a>
 	<?php
 		$object = new database();
 		$object->connect();
